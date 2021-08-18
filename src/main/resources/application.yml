@@ -1,0 +1,17 @@
+myapp:
+  mail:
+    enabled: true
+    default-subject: This is a Test
+    # \u914D\u7F6Elist
+    smtp-servers:
+      - 163.com
+      - qq.com
+
+username: tree
+password: 54431
+age: 20
+
+# ApplicationContextInitializer加载方式2
+#context:
+#  initializer:
+#    classes: com.ww.springbootlearn.contextinitializer.CustomContextInitializer
