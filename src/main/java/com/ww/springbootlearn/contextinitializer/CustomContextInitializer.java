@@ -9,6 +9,7 @@ import org.springframework.core.annotation.Order;
  * @description 自定义ApplicationContextInitializer实现
  * @date 2021-8-18 13:08
  */
+@SuppressWarnings("rawtypes")
 @Order(111)
 public class CustomContextInitializer implements ApplicationContextInitializer {
     

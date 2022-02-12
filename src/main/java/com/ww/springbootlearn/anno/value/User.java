@@ -1,4 +1,4 @@
-package com.ww.springbootlearn.model.anno.value;
+package com.ww.springbootlearn.anno.value;
 
 import org.springframework.beans.factory.annotation.Value;
 

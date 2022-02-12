@@ -1,3 +1,8 @@
+# 配置profile
+spring:
+   profiles:
+      active: dev
+
 myapp:
   mail:
     enabled: true
@@ -15,3 +20,7 @@ age: 20
 #context:
 #  initializer:
 #    classes: com.ww.springbootlearn.contextinitializer.CustomContextInitializer
+
+# logback日志配置
+logging:
+   config: classpath:conf/logback-spring.xml

@@ -13,9 +13,11 @@ import org.springframework.core.env.ConfigurableEnvironment;
  */
 public class CustomSpringApplicationRunListener implements SpringApplicationRunListener {
 
-    private final SpringApplication springApplication;
+    @SuppressWarnings("unused")
+	private final SpringApplication springApplication;
 
-    private final String[] args;
+    @SuppressWarnings("unused")
+	private final String[] args;
 
     public CustomSpringApplicationRunListener(SpringApplication springApplication, String[] args) {
         this.springApplication = springApplication;

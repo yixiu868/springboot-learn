@@ -4,6 +4,7 @@ import com.ww.springbootlearn.contextinitializer.CustomContextInitializer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SuppressWarnings("unused")
 @SpringBootApplication
 public class SpringbootLearnApplication {
 

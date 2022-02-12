@@ -1,19 +1,17 @@
-package com.ww.springbootlearn.model.anno.configurationproperties;
+package com.ww.springbootlearn.anno.configproperties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 /**
  * @author xiaohua
  * @description @ConfigurationProperties注解使用学习
+ * 只有当类所在的Spring @ComponentScan注解扫描到才会生效
  * @date 2021-8-17 9:26
  */
-// 只有当类所在的Spring @ComponentScan注解扫描到才会生效
-@Component
 @ConfigurationProperties(prefix = "myapp.mail")
-public class MailModuleProperties {
+public class MailModuleProperties3 {
 
     private Boolean enabled = Boolean.TRUE;
 

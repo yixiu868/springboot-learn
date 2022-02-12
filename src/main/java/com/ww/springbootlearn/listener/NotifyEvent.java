@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationEvent;
  * @description 自定义事件
  * @date 2021-8-18 10:49
  */
+@SuppressWarnings("serial")
 public class NotifyEvent extends ApplicationEvent {
 
     private String email;
